@@ -1,0 +1,16 @@
+database:
+create a database name product_details
+
+create table product(
+ id int AUTO_INCREMENT PRIMARY KEY,
+ pname varchar(255),
+ image varchar(255),
+ price double
+);
+
+INSERT INTO product (pname,image price) VALUES('laptop bag','bag2.png',1200), 
+('vivo v5','vivo-x20.png',20000),
+('pillips','Philips_Trimmers.png',1500),
+('iphone 6s','apple-iphone-6-space-grey-front.png',50000)
+
+run the cart.php file for execution.
